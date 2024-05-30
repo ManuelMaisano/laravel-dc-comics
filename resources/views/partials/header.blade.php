@@ -20,8 +20,14 @@
             </div>
 
         </div>
+        <div id="jumbotron">
+        <img src="{{ Vite::asset('resources/img/jumbotron.jpg')}}" alt="jumbotron">
+
+    </div>
+
+
     </header>
-    <style lang="scss" scoped>
+<style lang="scss" scoped>
 img {
     padding: 10px;
 }
