@@ -13,4 +13,7 @@
 
 <div class="text-white fs-3 py-4">Price: {{ $comic->price }}</div>
 
+@method('DELETE')
+<button id="deleteComic" data-toggle="modal" type="submit" href="" class="btn btn-danger ms-3">Elimina</button>
+
 @endSection
